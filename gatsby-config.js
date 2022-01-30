@@ -77,7 +77,7 @@ module.exports = {
         background_color: '#e1e1e1',
         theme_color: '#e1e1e1',
         display: 'minimal-ui',
-        icon: 'https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png', // This path is relative to the root of the site.
+        icon: 'src/images/favicon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-transformer-sharp',
