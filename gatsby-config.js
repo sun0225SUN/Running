@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/`, // Change to `/running_page` when running on github pages
   siteMetadata: {
-    siteTitle: '小孙同学',
+    siteTitle: '小孙同学向前冲',
     siteUrl: 'https://run.sunguoqi.com/',
     logo: 'https://sunguoqi.com/images/avatar.jpg',
     description: '小孙同学在努力',
