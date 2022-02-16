@@ -2,13 +2,17 @@ module.exports = {
   pathPrefix: `/`, // Change to `/running_page` when running on github pages
   siteMetadata: {
     siteTitle: '小孙同学',
-    siteUrl: 'https://sunguoqi.com/',
+    siteUrl: 'https://run.sunguoqi.com/',
     logo: 'https://sunguoqi.com/images/avatar.jpg',
     description: '小孙同学在努力',
     navLinks: [
       {
         name: 'Blog',
         url: 'https://sunguoqi.com/',
+      },
+      {
+        name: 'Github',
+        url: 'https://github.com/sun0225SUN/',
       },
       {
         name: 'About',
@@ -80,8 +84,6 @@ module.exports = {
         icon: 'src/images/favicon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-robots-txt',
