@@ -14,10 +14,6 @@ module.exports = {
         name: 'Github',
         url: 'https://github.com/sun0225SUN/',
       },
-      {
-        name: 'About',
-        url: 'https://github.com/sun0225SUN/',
-      },
     ],
   },
   plugins: [
@@ -85,6 +81,8 @@ module.exports = {
       },
     },
     'gatsby-plugin-sitemap',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
