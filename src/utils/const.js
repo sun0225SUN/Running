@@ -10,6 +10,12 @@ const MUNICIPALITY_CITIES_ARR = [
   '澳门特别行政区',
 ];
 
+
+// styling: set to `false` if you want to disable dash-line route
+const USE_DASH_LINE = true;
+// styling: route line opacity: [0, 1]
+const LINE_OPACITY = 0.4;
+
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = true;
@@ -56,10 +62,6 @@ export {
 };
 
 const nike = 'rgb(224,237,94)'; // if you want change the main color change here src/styles/variables.scss
-// styling: set to `false` if you want to disable dash-line route
-const USE_DASH_LINE = true;
-// styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.4;
 
 // If your map has an offset please change this line
 // issues #92 and #198
