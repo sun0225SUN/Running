@@ -56,6 +56,10 @@ export {
 };
 
 const nike = 'rgb(224,237,94)'; // if you want change the main color change here src/styles/variables.scss
+// styling: set to `false` if you want to disable dash-line route
+const USE_DASH_LINE = true;
+// styling: route line opacity: [0, 1]
+const LINE_OPACITY = 0.4;
 
 // If your map has an offset please change this line
 // issues #92 and #198
